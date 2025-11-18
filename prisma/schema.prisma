@@ -17,6 +17,7 @@ model Character{
   id String @id @default(nanoid())
   name String
   systemPrompt String
+  picture String
   createdAt DateTime @default(now())
   messages Message[]
 }
